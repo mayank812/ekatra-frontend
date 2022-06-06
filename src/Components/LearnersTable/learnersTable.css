@@ -1,0 +1,60 @@
+.learnersTable {
+    height: 700px;
+    width: 100%;
+}
+
+.learnersTableContainer {
+    padding: 30px;
+    border: 1px solid #3DBC8D;
+    border-radius: 30px;
+    margin: 20px 50px;
+    background-color: #FFFFFF;
+}
+
+
+.learnersTableTitle {
+    font-size: 36px;
+    font-weight: 700;
+    padding: 20px 0px;
+    margin-bottom: 25px;
+}
+
+.MuiDataGrid-row {
+    font-size: 18px;
+    font-family: 'Barlow';
+}
+
+.MuiDataGrid-cell--textLeft {
+    font-weight: 700;
+    color: #3DBC8D;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Barlow';
+    color: #939393;
+}
+
+.MuiDataGrid-toolbarContainer {
+    justify-content: flex-end;
+}
+
+.MuiDataGrid-toolbarContainer > .MuiButton-root {
+    background-color: #3DBC8D;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Barlow';
+    color: #000000;
+    padding: 4px 20px;
+    border-radius: 500px;
+    margin: 20px;
+}
+
+.MuiDataGrid-toolbarContainer > .MuiButton-root:hover {
+    background-color: #3DBC8D;
+}
+
+.MuiButton-text {
+    color: #000000;
+}

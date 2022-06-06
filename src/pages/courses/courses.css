@@ -1,0 +1,57 @@
+.coursesPage {
+    background-color: #c4c4c452;
+    padding-bottom: 100px;
+}
+
+.heading {
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.courseCardsContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border-radius: 85px;
+    margin: 0 30px;
+    padding: 120px 0px 120px 30px;
+}
+
+.addNewCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 421px;
+    height: 235px;
+    border: 3px solid #3DBC8D;
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.addItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.addIcon {
+    align-self: center;
+}
+
+.addButton {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+
+
+    
+    

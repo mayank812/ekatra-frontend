@@ -1,0 +1,61 @@
+.addCoursePage {
+    background-color: #c4c4c452;
+    padding-bottom: 100px;
+}
+
+.heading {
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.addCourseContainer {
+    background: #FFFFFF;
+    border-radius: 85px;
+    margin: 0 50px;
+}
+
+.inputsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 6px;
+}
+
+
+.descriptionField {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 120px 0px;
+}
+
+.dayAdd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.daySelect {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    align-items: center;
+    gap: 15px;
+    width: 712px;
+    overflow-x: auto;
+}
+
+.ButtonOutlined.Mui-selected {
+    border-color: #3DBC8D;
+}
+
+.saveCourseBtnDiv {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+    
+    

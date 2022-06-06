@@ -1,0 +1,99 @@
+.analyticsPageHeading {
+    font-size: 48px;
+    font-weight: bold;
+    padding: 12px 0px 12px 34px;
+}
+
+.analyticsSelectInputsContainer {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+    margin-bottom: 20px;
+}
+
+.analyticsSelectInputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.analyticsSelectInputTitle {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    
+}
+
+.greyBackground {
+    background-color: #c4c4c452;
+    border-top: 1px solid rgba(0, 0, 0, 0.72);
+    padding-bottom: 30px;
+}
+
+.analyticsCards {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px 0px 100px;
+}
+
+.analyticsCard {
+    width: 250px;
+    padding: 20px;
+    border: 1px #3DBC8D solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.analyticsCardTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.analyticsCardTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #939393;
+    margin: 0;
+}
+
+.analyticsCardStudentsContainer {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.analyticsCardFraction {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0;
+}
+
+.analyticsCardRate {
+    font-size: 12px;
+    font-weight: 700;
+    color: #3DBC8D;
+    margin: 0px 0px 0px 5px;
+}
+
+.featuredIconUp {
+    color: #3DBC8D;
+    transform: matrix(0.89, 0.64, -0.39, 0.84, 0, 0);
+}
+
+.negative {
+    color: #FF5E5E;
+}
+
+.featuredIconDown {
+    transform: matrix(0.92, -0.66, -0.32, -0.85, 0, 0);
+}
+
+.analyticsCardSubtitle {
+    font-size: 12px;
+    font-weight: 400;
+    color: #939393;
+    margin: 0;
+}

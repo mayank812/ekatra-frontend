@@ -8,19 +8,19 @@ export const MenuItems = [
     {
         id: 2,
         title: 'Students',
-        url: 'students',
+        url: '/students',
         cName: 'nav-links'
     },
     {
         id: 3,
         title: 'Courses',
-        url: 'courses',
+        url: '/courses',
         cName: 'nav-links'
     },
     {
         id: 4,
         title: 'Live Course',
-        url: 'livecourse',
+        url: '/livecourse',
         cName: 'nav-links'
     }
 ]

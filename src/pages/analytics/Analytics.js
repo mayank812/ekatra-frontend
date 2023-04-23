@@ -11,10 +11,10 @@ const Analytics = () => {
     <div className='analyticsPageContainer'>
       <span className='analyticsPageHeading'>Analytics</span>
 
-      <div className='analyticsSelectInputsContainer' >
+      <div className='analyticsSelectInputsContainer'>
         {analyticsSelectItems.map((items, i) => {
           return (
-            <div className='analyticsSelectInputContainer'>
+            <div className='analyticsSelectInputContainer' key={i}>
               <span className='analyticsSelectInputTitle'>{analyticsSelectItems[i].title}</span>
               {analyticsSelectItems[i].input}
             </div>
@@ -27,7 +27,7 @@ const Analytics = () => {
         <div className='analyticsCards'>
           {analyticsCardItems.map((items, i) => {
             return (
-              <div className='analyticsCard'>
+              <div className='analyticsCard' key={i}>
                 <div className='analyticsCardTitleContainer'>
                   <p className='analyticsCardTitle'>{analyticsCardItems[i].title}</p>
                   <div>{analyticsCardItems[i].icon}</div>

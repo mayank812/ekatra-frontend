@@ -94,7 +94,7 @@ const AddCourse = ({ onAdd }) => {
                         <div className='daySelect'>
                             {days.map((day, i) => {
                                 return (
-                                    <DaySelectButton id={`day-${i+1}`} i={i} activeDay={activeDay} setActiveDay={setActiveDay}/>
+                                    <DaySelectButton id={`day-${i+1}`} i={i} activeDay={activeDay} setActiveDay={setActiveDay} key={i}/>
                                     
                                 )
                             })}
@@ -111,7 +111,7 @@ const AddCourse = ({ onAdd }) => {
 
                 {content.map((content, i) => {
                     return (
-                        <DayContent id={`day-${i + 1}`} activeDay={activeDay} />
+                        <DayContent id={`day-${i + 1}`} activeDay={activeDay} key={i}/>
                     )
                 })}
 

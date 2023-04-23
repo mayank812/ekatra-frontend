@@ -20,11 +20,11 @@ const DayContent = ({id, activeDay}) => {
       }
 
     return (
-        activeDay === id ? <div id={id} key={id} style={{ paddingBottom: 80 }}>
+        activeDay === id ? <div id={id} style={{ paddingBottom: 80 }}>
 
                         {paragraphs.map((paragraph, i) => {
                             return (
-                                <div className='content'>
+                                <div className='content' key={i}>
 
                                     <div className='paragraph'>
                                         <h3 style={{ fontSize: 30, marginRight: 50 }}>Paragraph - {i + 1}</h3>

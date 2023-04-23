@@ -1,7 +1,8 @@
-import Navbar from './Components/Navbar/Navbar';
+import Layout from './pages/layout/Layout';
 import Analytics from './pages/analytics/Analytics';
 //import Courses from './pages/courses/Courses';
 import AddCourse from './pages/addCourse/AddCourse';
+import NoPage from './pages/noPage/NoPage';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
@@ -24,10 +25,11 @@ function App() {
   return (
     <Router>
         <div className="App">
-      <Navbar />
+      
       <Routes>
-        <Route path='/' element={<Analytics />}/>
-        <Route path='/courses' element={
+        <Route path='/' element={<Layout />}>
+        <Route index element={<Analytics />}/>
+        <Route path='courses' element={
           <div className="coursesPage">
           <h1 className='heading'>Courses</h1>
           <div className='courseCardsContainer'>
@@ -43,7 +45,9 @@ function App() {
           </div>
           </div>
         } />
-        <Route path='/courses/addcourse' element={<AddCourse onAdd={addCourse} />}/>
+        <Route path='courses/addcourse' element={<AddCourse onAdd={addCourse} />}/>
+        <Route path="*" element={<NoPage />} />
+        </Route>
       </Routes>
       
       </div>

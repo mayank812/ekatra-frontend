@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ekatra-frontend/static/css/main.72571ff4.css",
+    "main.js": "/ekatra-frontend/static/js/main.07ca3f4c.js",
+    "static/js/787.508bea36.chunk.js": "/ekatra-frontend/static/js/787.508bea36.chunk.js",
+    "static/media/Ekatra_Logo.png": "/ekatra-frontend/static/media/Ekatra_Logo.8d01c7510ec89d9658ad.png",
+    "static/media/blank-profile-picture-gd251ae629_640.png": "/ekatra-frontend/static/media/blank-profile-picture-gd251ae629_640.2fda6558cd58b877e14f.png",
+    "static/media/Progress.svg": "/ekatra-frontend/static/media/Progress.bd584b609077a1e48a9e224366ed60bd.svg",
+    "static/media/Learners.svg": "/ekatra-frontend/static/media/Learners.87861e3a3e8ba598170c11832443c7b7.svg",
+    "static/media/back-icon.svg": "/ekatra-frontend/static/media/back-icon.f4cd07d98290e41aa0db3f1348d56630.svg",
+    "static/media/Arrow-upward.svg": "/ekatra-frontend/static/media/Arrow-upward.8166a69dd7910ecc7310676cbcbc8808.svg",
+    "static/media/Arrow-downward.svg": "/ekatra-frontend/static/media/Arrow-downward.c0158d904031b653d58c9eac4a66e2cf.svg",
+    "index.html": "/ekatra-frontend/index.html",
+    "main.72571ff4.css.map": "/ekatra-frontend/static/css/main.72571ff4.css.map",
+    "main.07ca3f4c.js.map": "/ekatra-frontend/static/js/main.07ca3f4c.js.map",
+    "787.508bea36.chunk.js.map": "/ekatra-frontend/static/js/787.508bea36.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72571ff4.css",
+    "static/js/main.07ca3f4c.js"
+  ]
+}

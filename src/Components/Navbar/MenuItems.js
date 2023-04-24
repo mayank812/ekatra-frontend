@@ -2,7 +2,7 @@ export const MenuItems = [
     {   
         id: 1,
         title: 'Analytics',
-        url: '#/',
+        url: '/',
         cName: 'nav-links'
     },
     {

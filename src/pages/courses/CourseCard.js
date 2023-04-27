@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import courseImage from './unsplash_FCHlYvR5gJI.png';
 import './courseCard.css';
 
 const CourseCard = ({course}) => {
     
-   const getCourseImage = (courseCategory = course.categoryOption) => {
+   /* const getCourseImage = (courseCategory = course.categoryOption) => {
         return {
             Programming: 'unsplash_FCHlYvR5gJI.png' ,
             Management: 'unsplash_Oalh2MojUuk.png',
@@ -11,14 +12,14 @@ const CourseCard = ({course}) => {
             Wildlife: 'unsplash_VfdOzbZkW1w',
             Language: 'unsplash_BVyNlchWqzs'
         } [courseCategory]
-    }
+    } */
 
   
     return (
         <div className="courseCardContainer">
             <div className="courseItemsDiv">
                 <div>
-                    <img src={getCourseImage} alt="course_image" className="courseCardImage" />
+                    <img src={courseImage} alt="course_image" className="courseCardImage" />
                 </div>
 
                 <div className="courseContentDiv">
